@@ -1,0 +1,48 @@
+.wrapper-forma {
+    padding: 139px 0 135px 0;
+    background: #f5f0dd;
+
+    .wrapper-text {
+        padding-bottom: 64px;
+        text-align: center;
+    }
+.button-wrapper {
+    
+    h2 {
+        font-size: 42px;
+        color: $color-fon;
+        padding-bottom: 39px;
+    }
+    p{
+        font-size: $main-fz;
+        color: $color-fon;
+    }
+    .wrapper-button{
+        display: flex;
+        justify-content: center;
+    .email {
+        width: 520px;
+        height: 76px;
+        background: $color-fon;
+        border-radius: 8px;
+        border: #f5f0dd;
+    }
+    .submit {
+        @include button ($hover-color, $color-fon);
+        padding: 30px 55px;
+        border-radius: 8px;
+        border: 1px solid $hover-color;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .submit:hover {
+        @include button ($color-fon, $hover-color);
+        border-radius: 1px solid $hover-color;
+    }
+    [placeholder] {
+        padding-left: 20px;
+    }
+}
+}
+}

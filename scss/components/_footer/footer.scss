@@ -1,0 +1,19 @@
+footer {
+    background: #313030;
+    padding: 53px 0 36px 0;
+    
+    .wrapper-footer {
+        display: flex;
+        justify-content: space-between;
+        span {
+        font-size: 16px;
+        color: #b8b8b8;  
+        }
+    }
+
+    .footer-img {
+        a:not(:last-child) {
+            margin-right: 18px;
+        }
+    }
+}

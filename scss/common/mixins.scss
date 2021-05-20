@@ -1,0 +1,4 @@
+@mixin button ($color-fon, $hover-color) {
+    background: $color-fon;
+    color: $hover-color;
+}

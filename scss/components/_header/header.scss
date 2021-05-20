@@ -1,0 +1,54 @@
+header {
+    padding-top: 30px;
+    background: #f6f2f2;
+    padding-bottom: 108px;
+    width: 100%;
+
+    .header-container{
+    background-color: #313030;
+    display: flex;
+    justify-content: center;
+  
+   
+    nav {
+
+    ul {
+        display: flex;
+
+    li {
+        list-style: none;
+        padding: 0 20px;
+        
+    }
+
+    li a {
+        display: block;
+        text-decoration: none;
+        color: #e0e0e0;
+        font-size: $fz-hdr;
+        padding: 40px 20px;
+        text-transform: uppercase;
+    }
+
+    li a:hover {
+        background: $hover-color;
+    }
+}
+
+}
+
+}
+
+    img {
+        display: none;
+        width: 150px;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+}
+
+ 
